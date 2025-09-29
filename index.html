@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Fetch Timeout</title>
+
+    <style>
+      body {
+        display: flex;
+        flex-direction: column;
+        width: 32rem;
+        gap: 4px;
+      }
+      button {
+        padding: 4px;
+        text-transform: capitalize;
+      }
+    </style>
+  </head>
+  <body>
+    <button id="test-1">test fetch with signal</button>
+    <button id="test-2">test fetch with promise race</button>
+  </body>
+
+  <script type="module" src="./index.ts"></script>
+</html>
